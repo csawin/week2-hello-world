@@ -1,20 +1,21 @@
 # Cliff Sawin
 
- print( 'Hello. Please select the language you want. ')
+ print( 'Hello, Please select one language from the options provided. ')
 
-# Display Option
+# Display options for language selections
  print (' Press 1: Spanish. ')
  print (' Press 2: French. ')
  print (' Press 3: Chinese. ')
  
-# create option variable to receive input from user.
-option = input()
+# Create variable to store input from user.
+ option = input()
 
-# print out appropriate language when option matches 1,2, or 3. 
+# Display a a greeting in the language that was selected from options 1,2, or 3. 
 if option == '1':
 	print('Hola!')
 elif option == '2':
 	print('Bonjour!')
 elif option == '3':
 	print('Ni Hao!')
+	
 	
